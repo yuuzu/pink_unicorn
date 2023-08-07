@@ -1,0 +1,45 @@
+/* common */
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+.carousel {
+  height: 540px;
+  margin-bottom: 3em;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 540px;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.item__blue {
+  background-image: url(../img/010.jpg);
+  background-size: cover;
+}
+.item__red {
+  background-image: url(../img/011.jpg);
+  background-size: cover;
+}
+.item__yellow {
+  background-image: url(../img/012.jpg);
+  background-size: cover;
+}

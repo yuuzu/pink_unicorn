@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: skyblue;
+  color: #fff;
+  line-height: 1.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header  {
+  margin: 0 auto;
+  display: block;
+  padding: 25px; 
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+  text-align: left;
+}
+p {
+  font-size: 1em;
+  text-align: left;
+}
+.me {
+  float: left;
+  margin: 15px;
+  width: 230px;
+}
+.picbox {
+  margin: 0 auto;
+  display: block;
+  width: 840px;
+}
+.pic {
+  float: left;
+  margin: 0 15px 15px 15px;
+  width: 250px;
+  height: auto;
+}
+._br {
+  clear: both;
+}
+
+section {
+  display: block;
+  margin: 25px auto;
+  padding: 25px 25px 50px 25px; 
+  width: 980px;
+  border-bottom: 5px dotted #fff;
+}
+footer {
+  display: block;
+  margin: 25px auto;
+  padding: 25px 25px 50px 25px; 
+  width: 980px;
+}
+
+address {
+  text-align: right;
+}
